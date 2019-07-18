@@ -1,4 +1,4 @@
-# auto-interview
+# Auto interview client
 
 ## Project setup
 ```
