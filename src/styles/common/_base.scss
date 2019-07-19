@@ -1,0 +1,69 @@
+@import "~normalize.css/normalize.css";
+@import "../settings/index";
+
+html, body {
+  width: 100%;
+  height: 100%;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+html {
+  font-family: sans-serif;
+  box-sizing: border-box;
+  touch-action: manipulation;
+}
+
+body {
+  margin: 0;
+  font-family: $font-family-default;
+  min-width: 320px;
+  overflow-x: hidden;
+  min-height: 100%;
+  overflow-y: auto;
+  font-style: normal;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -moz-font-feature-settings: "liga" on;
+  letter-spacing: 0;
+  color: $color-text-default;
+  font-size: $font-size-default;
+  line-height: $line-height-default;
+}
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+::before,
+::after {
+  text-decoration: inherit;
+  vertical-align: inherit;
+}
+
+* {
+  background-repeat: no-repeat;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: $color-link;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+
+  &:active {
+    text-decoration: none;
+  }
+}
+
+p {
+  margin-bottom: $indent-medium;
+}

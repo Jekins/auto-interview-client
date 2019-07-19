@@ -1,0 +1,47 @@
+/**
+ * Bem Constructor settings override
+ */
+$bem-use-namespaces: false;
+$bem-element-separator: '__';
+$bem-modifier-separator: '_';
+$bem-block-namespaces: (
+  'utility': 'u',
+  'object': 'o',
+  'component': 'js',
+);
+
+/**
+Colors
+ */
+$color-primary: red;
+
+$color-text-default: #333333;
+$color-link: blue;
+
+/**
+Font family
+ */
+$font-family-default: Helvetica, Arial, sans-serif;
+
+/**
+Typography
+ */
+$font-size-default: 16px;
+$font-size-h1: 34px;
+
+/**
+Line height
+ */
+$line-height-default: 1.6;
+
+/**
+Indents
+ */
+$indent-small: 8px;
+$indent-medium: 16px;
+$indent-large: 32px;
+
+/**
+Screen sizes
+ */
+$screen-lg: 1200px;
